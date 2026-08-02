@@ -1,8 +1,29 @@
 aid: turbine
 name: Turbine
-description: 'Turbine is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Turbine (Turbine Ltd) is a Budapest-based AI biotechnology company that
+  virtualizes biological experiments to accelerate and de-risk drug discovery.
+  Its Simulated Cell platform trains virtual cells on genomic, transcriptomic,
+  and perturbation-response data, then runs millions of in silico experiments per
+  day to predict therapy response across cell lines, patient-derived organoids and
+  xenografts, and patient samples. Turbine offers partner-facing products for
+  target discovery and de-risking, combination design, and ADC (antibody-drug
+  conjugate) intelligence, and works with pharmaceutical partners including
+  AstraZeneca and MSD. The company publishes research code and benchmarks on
+  GitHub but exposes no public developer API; this profile captures its identity,
+  security posture, and web properties for the API Evangelist network.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://turbine.ai/wp-content/uploads/2024/12/cropped-cropped-favicon-192x192.png
 url: https://raw.githubusercontent.com/api-evangelist/turbine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Biotechnology
+- Drug Discovery
+- Artificial Intelligence
+- Life Sciences
+- Simulation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,16 @@ maintainers:
 common:
 - type: Website
   url: https://turbine.ai/
+- type: Blog
+  url: https://turbine.ai/news/
+- type: PrivacyPolicy
+  url: https://turbine.ai/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/turbine-ai
+- type: DomainSecurity
+  url: security/turbine-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
